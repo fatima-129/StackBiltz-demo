@@ -9,7 +9,7 @@ export default function App() {
       <h1>Hello StackBlitz! {counter}</h1>
       <button onClick={() => dispatch({ type: 'INC' })}>INCREMENT</button>
       <button onClick={() => dispatch({ type: 'DEC' })}>DECREMENT</button>
-      <button onClick={() => dispatch({ type: 'CUSTOM', payload: 10 })}>
+      <button onClick={() => dispatch({ type: 'CUSTOM', payload: 12 })}>
         CUSTOM
       </button>
     </div>
